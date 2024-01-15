@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+:root {
+	font-size: 16px;
+	font-family: 'Impact', sans-serif;
+
+	--main-background-color: #081b29;
+	--main-text-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	margin: 0;
+	padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+figure {
+	margin: 0;
+	padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: var(--main-text-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+	margin: 0;
+	padding: 0;
+	color: var(--main-text-color);
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+button {
+	cursor: pointer;
+	color: var(--main-text-color);
+}
+
+body {
+	width: 100vw;
+	height: 100%;
+	background: var(--main-background-color);
+}
+
+.line {
+	margin: 0 auto;
+	background-color: rgb(206, 206, 206);
+	height: 1px;
+	max-width: 1040px;
+	margin-top: 10px;
+}
+
+.container {
+	max-width: 100%;
+	margin: auto;
+	height: 100%;
 }
