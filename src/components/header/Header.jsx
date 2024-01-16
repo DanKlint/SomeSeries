@@ -29,8 +29,9 @@ const Header = () => {
 						</li>
 					</ul>
 				</nav>
-				<div className="line"></div>
+
 			</div>
+			<div className="line"></div>
 		</header>
 	);
 };

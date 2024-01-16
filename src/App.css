@@ -60,12 +60,12 @@ body {
 	margin: 0 auto;
 	background-color: rgb(206, 206, 206);
 	height: 1px;
-	max-width: 1040px;
+	max-width: 80%;
 	margin-top: 10px;
 }
 
 .container {
-	max-width: 100%;
+	max-width: 80%;
 	margin: auto;
 	height: 100%;
 }

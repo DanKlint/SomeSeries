@@ -1,0 +1,25 @@
+.search-filters {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	overflow-x: auto;
+}
+
+.slider-line {
+	margin-bottom: 50px;
+}
+
+li {
+	margin-right: 10px;
+}
+
+.slider-genre {
+	font-size: 22px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
