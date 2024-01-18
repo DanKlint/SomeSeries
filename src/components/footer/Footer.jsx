@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
 	return (
 		<footer>
-			<div className="line"></div>
+			{/* <div className="line"></div> */}
 			<div className="container">
 				<div className={styles["contacts-wrap"]}>
 					<div className={styles['icons-wrap']}>

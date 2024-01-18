@@ -5,7 +5,7 @@
 .form {
 	position: relative;
 	width: 350px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 
@@ -13,6 +13,11 @@
 	border: none;
 	outline: none;
 	border-radius: 11px;
+	justify-content: center;
+}
+
+.search-button img {
+	width: 26px;
 }
 
 .input {

@@ -2,6 +2,7 @@ import './App.css';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Home from './pages/home/Home';
+import News from './pages/news/News';
 import Header from './components/header/Header';
 import { Routes, Route } from "react-router-dom";
 import React from 'react';
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <React.Fragment className='container'>
           <Route path="/" index element={<Home />} />
+          <Route path="/news" index element={<News />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           {/* <Route path='*' element={<Error/>}/> */}

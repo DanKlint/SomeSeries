@@ -19,6 +19,13 @@ footer {
 
 .icons-wrap__icon {
 	height: 18px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.icons-wrap__icon:hover {
+	color: aliceblue;
+	transform: scale(1.1)
 }
 
 .subtitle {
