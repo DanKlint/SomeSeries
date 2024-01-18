@@ -16,7 +16,7 @@ const Header = () => {
 							<NavLink className={styles['menu__link']} to="/">Каталог</NavLink>
 						</li>
 						<li className={styles['menu__item']}>
-							<NavLink className={styles['menu__link']} to="News.html">Новости</NavLink>
+							<NavLink className={styles['menu__link']} to="/news">Новости</NavLink>
 						</li>
 						<li className={styles['menu__item']}>
 							<NavLink className={styles['menu__link']} to="Actors.html">Актеры</NavLink>
@@ -29,8 +29,9 @@ const Header = () => {
 						</li>
 					</ul>
 				</nav>
-				<div className="line"></div>
+
 			</div>
+			<div className="line"></div>
 		</header>
 	);
 };

@@ -7,7 +7,9 @@ const SearchFormImpl = () => {
 		<div>
 			<form className={styles["form"]}>
 				<input className={styles["input"]} type="text" placeholder="Поиск..." />
-				<button className={styles["search-button"]} type="submit">&#128269;</button>
+				<button className={styles["search-button"]} type="submit">
+					<img src="./assets/icon/lupa1.png" alt="лупа" />
+				</button>
 			</form>
 		</div>
 
