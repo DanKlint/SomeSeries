@@ -1,0 +1,19 @@
+.actor {
+  display: flex;
+  box-shadow: 5px 5px 7px rgba(170, 170, 170, 0.4),
+    -5px -2px 7px rgba(170, 170, 170, 0.4);
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.image__wrap {
+  width: 400px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image__wrap img {
+  width: 400px;
+  height: 250px;
+  border-radius: 14px;
+}
