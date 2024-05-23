@@ -33,10 +33,10 @@
 Рис.6 - Страница актеров
 
 ![image](https://github.com/DanKlint/SomeSeries/assets/108864135/78067763-46b6-4f3e-9c61-27c5b9d599f5)
-Рис.7 - Старница новостей
+Рис.7 - Страница новостей
 
 ![image](https://github.com/DanKlint/SomeSeries/assets/108864135/43f7798a-4ef9-4a3c-8b34-0ef812cb0bd7)
-Рис.8 - Старница контактов
+Рис.8 - Страница контактов
 
 # Запуск приложения
 
